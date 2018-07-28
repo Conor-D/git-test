@@ -1,5 +1,5 @@
 import { User } from "./test";
 
 function outPut(user: User) {
-    console.log(user.name, user.password);
+    console.log(user.name, user.password, user.id);
 }
